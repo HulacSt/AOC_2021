@@ -10,23 +10,29 @@ if(test):
 else:
   d = getInput('day4.input')
 
-# print(d)
+print(d)
 
 class Board:
     def __init__(self, input):
-        
+      pass
+    # run a call against a board
+
+    # check if a board is a winner
+
+    # calculate the score of a winner
 
 class Game:
     def __init__(self, input):
         input = self.input
     
     # parse the input
+    def parse(self):
+      self.calls = input[0]
+      split_lines = [x.split(' ') for x in input[1:]]
+      just_chars = 
 
-    # run a call against a board
 
-    # check if a board is a winner
-
-    # calculate the score of a winner
+    
 
     # iterate through each call
 
