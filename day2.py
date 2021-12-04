@@ -77,5 +77,12 @@ loc = [0,0,0]
 for i in d:
   loc = move(i, loc)
 
-print(loc)
-print(loc[0] * loc[1])
+# print(loc)
+# print(loc[0] * loc[1])
+
+# now just messing around
+
+  
+for x in d:
+  cmd,mag = x.split(' ')
+  print(cmd,mag)
