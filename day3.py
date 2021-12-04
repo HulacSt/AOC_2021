@@ -39,16 +39,24 @@ print(epsilon)
 print(gamma * epsilon)
 
 # part 2 ========================================
-def check_for_done(diag_report):
-  if len(diag_report) == 1:
-    return(int(diag_report[0], 2))
+class DiagnosisReport:
+  def __init__(self, initial_report):
+    self.report = initial_report
+
+def checkDone(self):
+  if len(self.report) == 1:
+    return(int(self.report[0], 2))
   else:
     return(None)
 
-def evaluate_numbers(diag_report, bit_criteria):
-  if len(diag_report) == 1:
-    return(int(diag_report[0], 2))
-  else:
+def evaluateNumbers(self, bit_criteria):
+  if not check_for_done(self.report):
     # do some shit
     pass
+
+def get_mode(lst):
+  return(max(set(lst), key=lst.count))
+
+def pluck_digit(diag_report, digit):
+
 
