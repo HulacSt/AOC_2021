@@ -41,7 +41,7 @@ def check_line(line):
         else:
             counter[oc[l]] += 1
         print(l)
-        print(counter)
+        print(counter)  
         for c in counter:
             if(counter[c] < 0):
                 return(c)
